@@ -1,6 +1,5 @@
-import { useState } from "react";
 
-function Home() {
+const Home = () => {
   return <div>Home</div>;
 }
 
