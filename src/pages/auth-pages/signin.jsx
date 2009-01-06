@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import {Input} from "../../components";
-import logo from '../../assets/logo.png'
 import '../style/style.css'
 import React from "react";
 
@@ -8,7 +7,7 @@ function Login() {
   return (
     <main className="flex h-screen w-screen">
       {/* ***responsive marker */}
-      <div className="sign-bg h-full w-3/4 bg-primary hidden md:block">1</div>
+      <div className="sign-bg h-full w-3/4 bg-primary hidden md:block"></div>
   
       <div className="h-screen relative w-full p-12">
         {/* ***responsive marker */}
@@ -20,9 +19,6 @@ function Login() {
             </Link>{" "}
           </div>
           <div className="">
-            <Link to="/">
-             <img src={logo} alt="cardepay" width={150} className="logo" /> 
-            </Link>
             <h1 className="font-bold text-3xl py-2">Login</h1>
             <p className="text-xs">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

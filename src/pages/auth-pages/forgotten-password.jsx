@@ -1,14 +1,15 @@
-import React from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import Input from "../../components/Input";
 // import logo from '../assets/logo.png'
 import '../style/style.css'
 
 const ForgottenPassword = () => {
+  const [success, setSuccess] = useState(false)
   return (
     <main className="flex h-screen w-screen">
        {/* ***responsive marker */}
-       <div className="sign-bg h-full w-3/4 bg-primary hidden md:block">1</div>
+       <div className="sign-bg h-full w-3/4 bg-primary hidden md:block"></div>
 
 <div className=" h-screen relative w-full p-12">
   {/* ***responsive marker */}
@@ -19,7 +20,10 @@ const ForgottenPassword = () => {
           Create an Account
         </Link>{" "}
       </div>
-      <div className="">
+      {
+        !success ? (
+          <Fragment>
+               <div className="">
         <Link to="/">
           {/* <img src={logo} alt="cardepay" width={150} className="logo" /> */}
         </Link>
@@ -29,7 +33,9 @@ const ForgottenPassword = () => {
         </p>
       </div>
 
-      <div className="py-12">
+      <form className="py-12" onSubmit={()=>{
+        setSuccess(true)
+      }}>
         <Input
           label="Username"
           type="text"
@@ -45,7 +51,15 @@ const ForgottenPassword = () => {
         >
           Login with Password 
         </Link>
-      </div>
+      </form>
+          </Fragment>
+        ) :
+        (
+          <div className='flex justify-around font-bold py-[50%] relative items-end h-full w-full'>
+            <p>Success, check your mail! </p>
+            </div>
+        )
+      }
     </div>
     </div>
   </main>
