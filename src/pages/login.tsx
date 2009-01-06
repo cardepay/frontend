@@ -16,9 +16,9 @@ const Login = () => {
         </div>
         <div className="">
           <Link to="/">
-            <img src={logo} alt="cardepay" width={60} className="logo" />
+            <img src={logo} alt="cardepay" width={50} className="logo" />
           </Link>
-          <h1 className="font-bold text-4xl">Login</h1>
+          <h1 className="font-bold text-3xl py-2">Login</h1>
           <p className="text-xs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
