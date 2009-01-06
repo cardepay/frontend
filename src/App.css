@@ -6,11 +6,12 @@
     font-family: 'poppins';
     max-width: 100%;
 }
+/* 
 body{
     color: var(--color-main);
-}
+} */
 .primary{
-    color: var(--color-main);
+    /* color: var(--color-main); */
 }
 a{
     color: unset;
@@ -41,7 +42,7 @@ a{
     }
 }
 
- 
+
 
 @keyframes spinner-1o3y8q {
    to {

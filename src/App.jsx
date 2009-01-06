@@ -16,7 +16,11 @@ render() {
 				<Route exact path='/contact' element={< Contact />}></Route>
 				<Route exact path='/signup' element={< Signup />}></Route>
 				<Route exact path='/signin' element={< Login />}></Route>
-				<Route exact path='/reset' element={< ForgottenPassword />}></Route>
+			
+				<Route exact path='/reset' element={< ForgottenPassword />}>
+				</Route>
+			
+			
 				<Route exact path='*' element={< PageNotFound />}></Route>
 
 		</Routes>
