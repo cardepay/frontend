@@ -37,6 +37,60 @@
     line-height: 1rem;
     font-size: 0.5em;
 }
+@media screen and (max-width:1200px) {
+   .feature{
+    margin-left: 6em;
+    margin-right: 0;
+
+   }
+   .feature__list{
+    width: 100%
+   }
+   .feature__list .item{
+    margin-left: 0.5rem;
+   }
+   .feature .img{
+    margin-top: 1rem;
+    width: 45%;
+    
+   }
+   .feature .img img{
+    width: 100% ;
+    align-items: center;
+    justify-self: center;
+   }
+
+}
+
+@media screen and (max-width:960px) {
+    .feature{
+     margin-left: 0;
+     margin-right: 0;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    .feature__list{
+     width: 100%;
+     padding: 0;
+     justify-content: center;
+    }
+    .feature__list .item{
+     width: 22%;
+     height: 40%;
+    }
+    .feature .img{
+     margin-top: 1rem;
+     width: 45%;
+     
+    }
+    .feature .img img{
+     width: 100% ;
+     align-items: center;
+     justify-self: center;
+    }
+ 
+ }
 @media screen and (max-width: 650px){
     .feature{
         display: flex;
