@@ -70,7 +70,7 @@
     .fund__text-left li{
         font-size: 0.6rem;
 }
-}
+
 .fund{
     flex-direction: column;
     width: 100%;
@@ -95,4 +95,5 @@
     .phone{
         margin-left: -6rem;
     }
+}
 }
