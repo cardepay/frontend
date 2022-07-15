@@ -1,17 +1,18 @@
 import React from 'react';
 import './nav.css'
 import logo from '../../assets/logo.png';
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 //import { RIMenu3Line, RICloseLine} from 'react-icons/ri'
 
 const Nav = () => {
   return (
-    <div className='nav section__padding'>
+    <div className='nav'>
       <div className='nav__logo'>
-        <img src={logo} alt='Carde Logo' />
+      <Link to="/"><img src={logo} alt='Carde Logo' /></Link> 
         </div>
         <div className='nav__links'>
           <div className='nav__links-left'>
-            <p><a href="#">Developer</a></p>
+            <p><Link to="/contact">Contact Us</Link></p>
             <p><a href="#">Pricing</a></p>
             <p><a href="#">Help</a></p>
           </div>

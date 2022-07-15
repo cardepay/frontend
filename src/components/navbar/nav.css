@@ -8,14 +8,11 @@
     color:black;
     background: #F2F3FA;
     font-weight: 500;
-    padding-top: 0.5rem;
     font-family: 'poppins';
-    visibility: hidden;
 }
 .nav__logo{
     width:264px;
-    margin-left: 2em;
-    margin-top: -0.1em;
+  
 }
 .nav__links{
     width:80%;

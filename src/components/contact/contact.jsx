@@ -1,5 +1,7 @@
 import React from 'react'
 import './contact.css'
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+
 const Contact = () => {
   return (
     <div className='Cta'>
@@ -7,7 +9,7 @@ const Contact = () => {
           <i></i>
                <h4>Got Some Enquiries? <br></br>Book a Session on us</h4>
        </div>
-        <button>Contact Us</button>
+        <Link to="/contact"><button>Contact Us</button></Link>
     </div>
   )
 }

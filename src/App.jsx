@@ -1,29 +1,22 @@
-import './app.css'
-import {About, Feature, Cta, Fund} from './components';
-import Contact from './components/contact/contact';
-import {Footer, Services, Header} from './container'
+import React, { Component } from 'react';
+import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/landings pages/home';
+import Contact from './pages/landings pages/contact';
+import './app.css';
 
-
-const App = () => {
-  return (
-    <div className="App">
-      <div className='header'>
-        <Header />
-      </div>
-      <Services />
-      <Feature />
-      <Cta />
-      <Fund />
-      <div>
-        <About />
-        <Contact />
-        
-      </div>
-      <div>
-        <Footer />
-      </div>
-    </div>
-  )
+class App extends Component {
+render() {
+	return (
+	<Router>
+		<div className="App">
+		<Routes>
+				<Route exact path='/' element={< Home />}></Route>
+				<Route exact path='/contact' element={< Contact />}></Route>
+		</Routes>
+		</div>
+	</Router>
+);
+}
 }
 
-export default App
+export default App;
