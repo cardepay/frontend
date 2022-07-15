@@ -4,7 +4,7 @@ import model from '../../assets/model.png'
 
 const Feature = () => {
   return (
-    <div className='feature'>
+    <div className='feature' id='features'>
       <div className='img'>
         <img src={model} alt='Claire Charles' />
       </div>

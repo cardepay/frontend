@@ -4,14 +4,14 @@
     align-items: center;
     height: 10vh;
     width: 100%;
-    padding: 0;
+    padding: 1rem;
+    padding-top: 2rem;
     color:black;
-    background: #F2F3FA;
-    font-weight: 500;
+   font-weight: 500;
     font-family: 'poppins';
 }
 .nav__logo{
-    width:264px;
+    width:244px;
   
 }
 .nav__links{
@@ -20,8 +20,8 @@
     justify-content: space-between;
 }
 .nav__logo img{
-    width: 7rem;
-    margin-top: 0.6rem;
+    width:6.2rem;
+    margin-top: 0.3rem;
     margin-left: 3rem;
 
     

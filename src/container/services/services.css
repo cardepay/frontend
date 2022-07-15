@@ -6,7 +6,7 @@
     margin-left: 20%;
     margin-top: 5rem;
     box-shadow: 0px 4px 4px 0px grey;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-left:4rem;
     padding-right:4rem;
     font-family: 'poppins';
@@ -25,13 +25,18 @@
     width: 30%;
     padding-bottom: 1.5em;
 }
-.icon{
+.item .icon{
     background-color: #FFFFFF;
     clip-path: circle();
-    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
     margin-top: -2rem;
     margin-left:-8px ;
     box-shadow: 2px 2px 4px 0px #000000;
+}
+.item  svg{
+   width: 5rem;
+   color: var(--color-main);
 }
 .item__text{
     padding-left: 10px;

@@ -3,7 +3,7 @@ import './about.css';
 import AboutImage from '../../assets/pinklady.jpg'
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='images'>
          <img src={AboutImage} alt='About Image' />
       </div>

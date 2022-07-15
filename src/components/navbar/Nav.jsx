@@ -18,8 +18,8 @@ const Nav = () => {
           </div>
              
           <div className='nav__links-right'>
-            <p><a href="#">About</a></p>
-            <p><a href="#">Features</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="#features">Features</a></p>
             <p><a href="#">Login</a></p>
             <button>Get Started</button>
           </div>
