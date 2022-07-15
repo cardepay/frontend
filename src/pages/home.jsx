@@ -1,6 +1,27 @@
+import React from 'react'
+import {About, Feature, Cta, Fund, Contact} from '../components';
+import {Footer, Services, Header} from '../container'
 
-const Home = () => {
-  return <div>Home</div>;
+const home = () => {
+  return (
+    <div>
+        <div className='header'>
+        <Header />
+      </div>
+      <Services />
+      <Feature />
+      <Cta />
+      <Fund />
+      <div>
+        <About />
+        <Contact />
+        
+      </div>
+      <div>
+        <Footer />
+      </div>    
+    </div>
+  )
 }
 
-export default Home;
+export default home
