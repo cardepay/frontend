@@ -39,7 +39,6 @@
 @media screen and (max-width: 650px) {
     .Cta{
         height: 20vh;
-        width: 100vw;
         padding: 0;
     }
 }

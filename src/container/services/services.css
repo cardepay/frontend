@@ -48,6 +48,9 @@
     margin-top: 5px;
     font-weight: 600;
 }
+@media screen and (max-width:1050px) {
+    
+}
 @media screen and (max-width: 650px){
     .services{
         width: 100%;

@@ -94,5 +94,9 @@
     .headerText button{
         padding: 0.7rem;
         margin-right: 5rem;
-    }}
+    }
+}
+}
+@media screen and (max-width:1050px) {
+    
 }
