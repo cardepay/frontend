@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    padding: 0;
+    color:black;
+    background: #F2F3FA;
+    font-weight: 500;
+    font-family: 'poppins';
+}
+.nav__logo{
+    width:264px;
+  
+}
+.nav__links{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__logo img{
+    width: 7rem;
+    margin-top: 0.6rem;
+    margin-left: 3rem;
+
+    
+}
+.nav__links-left, .nav__links-right{
+    display: flex;
+}
+.nav__links-left p, .nav__links-right p{
+    padding-right: 2rem;
+}
+.nav__links-right{
+    padding-right: 5em;
+}
+.nav__links-left{
+    margin-left: -5em;
+}
+.nav__links-right button{
+    background: var(--color-main);
+    color:white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: -0.2rem;
+}

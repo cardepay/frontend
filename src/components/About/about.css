@@ -1,0 +1,31 @@
+.about{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 8%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins';
+}
+.images{
+    width:35%;
+    border-radius: 0px 20%;
+    background-color: var(--color-main);
+    
+}
+.images img{
+    width: 100%;
+    border-radius: 0px 20%;
+    margin-left: 0.8rem;
+}
+.About__info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.About__info h5{
+    padding-left: 0.5rem;
+    border-left: 4px var(--color-main) solid;
+}
+
