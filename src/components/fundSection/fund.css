@@ -1,0 +1,52 @@
+.fund{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    font-size: 0.9rem;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.fund__text-left, .fund__text-right{
+    width: 40%;
+}
+.fund__text-left{
+    font-size: 0.9rem;
+    padding-right: 2rem;
+}
+.fund__text-left li{
+    list-style: none;
+    color:black;
+    margin-bottom: 0.5rem;
+    
+}
+.fund__text-left li span{
+    font-weight: 700;
+    color:black;
+}
+.fund__text-right li{
+    list-style:disc;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+.fund__text-left .title, .fund__text-right .title{
+    width: 70%;
+    text-align: center;
+}
+.fund__text-left .title{
+    padding-bottom: 1rem;
+}
+.fund__text-right .title{
+    padding-bottom: 2rem;
+}
+.phone{
+   margin-left: -4rem;
+   height: 15rem;
+   margin-top: 4rem;
+
+}
+.phone img{
+    height: 100%;
+}
