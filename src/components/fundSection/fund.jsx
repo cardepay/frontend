@@ -23,7 +23,7 @@ const Fund = () => {
           <li>Website Integration</li>
           <li>Storefront or product purchase</li>
           <li>Invoice Payment</li>
-          <li>Subscription service(recurring payment/one-time plan)</li>
+          <li>Subscription service(recurring payment / one-time plan)</li>
 
        </div>
     </div>
