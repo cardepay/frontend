@@ -39,3 +39,44 @@
     border-radius: 5px;
     margin-top: -0.2rem;
 }
+@media screen and (max-width:1200px){
+    .contact__area{
+        margin-left: 5rem;
+        margin-right: 0;
+    }
+    .contact__text{
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width:900px){
+    .contact__area{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact__text{
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    .contact__area .names{
+
+    }
+}
+@media screen and (max-width:900px){
+    .contact__area .names{
+        flex-direction: column;
+        
+    }
+    .contact__area{
+        margin-left: 2rem;
+    }
+    .contact__text{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .contact__area button{
+        margin-top: 1rem;
+        
+    }
+}
