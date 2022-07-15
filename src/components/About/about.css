@@ -5,7 +5,6 @@
     color: black;
     display: flex;
     justify-content: space-between;
-    font-family: 'poppins';
 }
 .images{
     width:35%;
