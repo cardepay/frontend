@@ -138,4 +138,7 @@
     .headerText p{
         margin-left: 50px;
     }
+    .headerText button{
+        margin-left: 5rem;
+    }
 }

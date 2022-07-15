@@ -81,4 +81,22 @@
         margin-bottom: 1rem;
         margin-left: -3rem;
     }
+    @media screen and (max-width: 650px){
+        .list{
+            justify-content: center;
+        }
+        .item{
+            width: 80%;
+            text-align: center;
+        }
+        .item svg{
+            align-self: center;
+        }
+        .item__text h5 {
+            font-size: 1.2rem;
+         }
+         .item__text h6{
+            font-size: 0.8rem;
+         }
+    }
 }
