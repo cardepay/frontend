@@ -49,14 +49,19 @@
     font-weight: 600;
 }
 @media screen and (max-width:1050px) {
-    
+    .services{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 10%;
+        width: 80%;
+    }
 }
 @media screen and (max-width: 650px){
     .services{
         width: 100%;
         margin: 0;
         margin-top: 3rem;
-        padding: 1rem;
+        padding: 6%;
         padding-top: 2rem;
         border-radius: 0;
         box-shadow: none;

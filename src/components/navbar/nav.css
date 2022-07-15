@@ -99,3 +99,10 @@
             margin-bottom: 0.1rem;
     }
 }
+@media screen and (max-width:650px) {
+    .nav__logo img{
+        margin-top: 1rem !important;
+        margin: 0;
+    }
+    
+}

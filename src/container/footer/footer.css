@@ -40,3 +40,14 @@
 .links__About h5, .links__Company h5 ,.links__Support h5{
     margin-bottom: 0.2rem;
 }
+@media screen and (max-width:1050px) {
+   
+}
+@media screen and (max-width:650px) {
+    .footer{
+        padding: 1rem;
+    }
+    .footer .subscribe{
+        display: none;
+    }
+}
