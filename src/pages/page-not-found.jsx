@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import notfound from '../assets/404.png';
-
+import './style/style.css'
 const PageNotFound = () => {
   return (
     <div className='error'>

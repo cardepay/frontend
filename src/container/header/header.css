@@ -52,16 +52,9 @@
     .headerText h1{
         font-size: 2rem;
     }
-<<<<<<< HEAD
-    .headerText {
-
-    }
-@media screen and (max-width: 840px) {
-=======
     /* .headerText  */
 }
 @media screen and (max-width: 650px) {
->>>>>>> 62ea00a854bb9e332de1a8fcafe984d6f24faf16
     .header{
         border-radius: 0;
     }
@@ -106,7 +99,7 @@
         margin-right: 5rem;
     }
 }
-}
+
 @media screen and (max-width: 550px){
     .header{
         height: 50vh ;

@@ -2,14 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Input from "../../components/Input";
 // import logo from '../assets/logo.png'
+import '../style/style.css'
 
 const ForgottenPassword = () => {
   return (
     <main className="flex h-screen w-screen">
        {/* ***responsive marker */}
-       <div className="h-full w-3/4 bg-primary hidden md:block">1</div>
+       <div className="sign-bg h-full w-3/4 bg-primary hidden md:block">1</div>
 
-<div className="h-screen relative w-full p-12">
+<div className=" h-screen relative w-full p-12">
   {/* ***responsive marker */}
 <div className="m-auto md:p-10 md:w-full" >
       <div className="absolute top-0 right-0 p-4 text-xs">

@@ -1,3 +1,10 @@
+/* Auth pages */
+.sign-bg{
+    background: url('../../assets//curly-woman-great-mood-dancing-purple-wall.jpg') ;
+    background-size: cover;
+    background-position:center;
+}
+/* 404 Error Page */
 .notfound{
     width: 30%;
 }
