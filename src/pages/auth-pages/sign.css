@@ -12,7 +12,7 @@
     height: 100vh;
 }
 .error .notfound h6 a{
-    color: blue !important;
+    color: blue ;
     font-size: 0.8rem;
 }
 .error .notfound h6{
