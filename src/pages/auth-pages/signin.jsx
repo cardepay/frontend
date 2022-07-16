@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import {Input} from "../../components";
 import logo from '../../assets/logo.png'
 import './sign.css'
+import React from "react";
 
 function Login() {
   return (
