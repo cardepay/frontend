@@ -1,22 +1,27 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/landings pages/home';
-import Contact from './pages/landings pages/contact';
-import './app.css';
 
-class App extends Component {
-render() {
-	return (
-	<Router>
-		<div className="App">
-		<Routes>
-				<Route exact path='/' element={< Home />}></Route>
-				<Route exact path='/contact' element={< Contact />}></Route>
-		</Routes>
-		</div>
-	</Router>
-);
-}
-}
+import {Routes, Route} from 'react-router-dom';
+import Home from './pages/home';
+import Login from './pages/login';
+import SignUp from './pages/signup';
+import Contact from './pages/contact';   
+import ForgottenPassword from './pages/forgotten-password';   
+import PageNotFound from './pages/page-not-found';   
+
+function App() {
+  return (
+    <Routes>
+      <Route path='/' element={<Home />} />
+
+      <Route path='/login' element={<Login />} />
+      <Route path='/signup' element={<SignUp />} />
+			<Route path='/contact' element={< Contact />} />
+			<Route path='/forgotten-password' element={< ForgottenPassword />} />
+			
+      
+      <Route path='*' element={< PageNotFound />} />
+		
+      </Routes>
+  );
+  }
 
 export default App;

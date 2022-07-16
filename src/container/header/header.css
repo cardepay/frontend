@@ -8,7 +8,6 @@
 }
 .headerText{
     margin-top: 10rem;
-    font-family: 'poppins';
     width: 45%;
 }
 .headerText h1{
@@ -53,7 +52,7 @@
     .headerText h1{
         font-size: 2rem;
     }
-    .headerText 
+    /* .headerText  */
 }
 @media screen and (max-width: 650px) {
     .header{
