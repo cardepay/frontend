@@ -44,7 +44,7 @@ function Login() {
               Login
             </button>
             <Link
-              to="/forgotten-password"
+              to="/reset"
               className="my-4 block text-xs  transition-all text-primary hover:underline "
             >
               Forgotten Password ?
