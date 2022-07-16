@@ -1,8 +1,12 @@
 import React from 'react'
+//import { Link } from 'react-router-dom'
+//import Input from '../../components/Input'
 
 const Signup = () => {
   return (
-    <div>signup</div>
+    <main className="flex h-screen w-screen">
+ sign up
+  </main>
   )
 }
 

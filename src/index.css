@@ -1,5 +1,61 @@
 :root{
-    --font-family: 'poppins', sans-serif;
+  --font-family:'Georama', sans-serif;
+  --color-main:#EB247C
+}
 
-    --color-main:#EB247C;
+body {
+  margin: 0;
+  font-family:'Georama', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: var(--color-main); */
+}
+
+/* custom reset */
+a{
+  color: unset;
+  text-decoration: none;
+}
+.section__padding{
+  padding: 4rem 6rem;
+}
+.section__margin{
+  margin: 4rem 6rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 700px) {
+  .section__margin{
+      margin: 4rem;
+  }
+  .section__padding{
+      padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__margin{
+      margin: 4rem 2rem;
+  }
+  .section__padding{
+      padding:  2rem;
+  }
+}
+/* TAILWIND CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities{
+  .ring-red{
+    --tw-ring-color: red;
+  }
+  .text-red{
+    color:rgba(255,0,0,1)
+  }
 }
