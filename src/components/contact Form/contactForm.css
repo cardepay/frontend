@@ -1,6 +1,7 @@
 .contact__area{
     margin: 10rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 .contact__text{
