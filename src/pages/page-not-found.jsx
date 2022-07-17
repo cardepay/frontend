@@ -1,5 +1,5 @@
 import React from 'react'
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BsHouseFill } from "react-icons/bs";
 import notfound from '../assets/404.png';
 import logo from '../assets/logo.png'
