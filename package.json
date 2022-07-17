@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^6.5.1",
     "gh-pages": "^4.0.0",
+    "gsap": "^3.10.4",
     "npm": "^8.14.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

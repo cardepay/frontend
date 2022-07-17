@@ -28,13 +28,13 @@ const Nav = () => {
             <Menu />
           
         </div>
-        <div className='nav__mobile-menu'>
+        <div className='nav__mobile-menu '>
               {toggleMenu
                 ?<RiCloseLine color='black' size={27} onClick={()=> setToggleMenu(false)}/>
                 :<RiMenu3Line color='black' size={27} onClick={()=> setToggleMenu(true)}/>
               }
               {toggleMenu &&(
-                <div className='nav__mobile-menu__container'>
+                <div className='nav__mobile-menu__container slide-top'>
                     <div className='nav__mobile-menu__container-links'></div>
                         <Menu />
                     </div>
