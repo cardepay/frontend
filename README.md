@@ -1,3 +1,2 @@
-# frontend
-## Todo
-- Change all .jsx & .js to .tsx & .ts
+# Cardepay Frontend
+## Don't forget to create an issue
