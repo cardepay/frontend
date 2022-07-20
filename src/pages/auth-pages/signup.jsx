@@ -1,10 +1,6 @@
 import React from 'react'
 import { FaLock , FaUser, FaPhone, FaEnvelope, FaGlobe, FaBriefcase} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { Input } from '../../components'
-import { InputIcon } from '../../components/Input'
-//import { Link } from 'react-router-dom'
-//import Input from '../../components/Input'
 
 const Signup = () => {
   return (
