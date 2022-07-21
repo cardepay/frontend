@@ -5,7 +5,7 @@ import Contact from './pages/contact';
 import PageNotFound from './pages/page-not-found'
 import {Signup, Login, ForgottenPassword} from './pages/auth-pages'
 
-import './app.css';
+import './App.css';
 
 class App extends Component {
 render() {
