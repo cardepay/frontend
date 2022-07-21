@@ -5,7 +5,7 @@ import React from "react";
 
 function Login() {
   return (
-    <main className="flex h-screen w-screen">
+    <main className="flex h-screen w-screen slide-top" style={{marginTop:100}}>
       {/* ***responsive marker */}
       <div className="sign-bg h-full w-3/4 bg-primary hidden md:block"></div>
   

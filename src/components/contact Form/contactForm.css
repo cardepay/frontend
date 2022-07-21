@@ -30,6 +30,7 @@
     width: 28rem;
     height: 7rem;
     padding: 0.5rem;
+    border: 1px solid black;
     
 }
 .form button{

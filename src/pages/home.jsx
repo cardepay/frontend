@@ -4,7 +4,7 @@ import {Footer, Services, Header} from '../container'
 
 const home = () => {
   return (
-    <div>
+    <div className='slide-top' style={{marginTop:100}}>
         <div className='header'>
         <Header />
       </div>

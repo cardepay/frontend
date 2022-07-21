@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Signup = () => {
   return (
-    <main className="flex min-h-screen h-screen w-screen">
+    <main className="flex min-h-screen h-screen w-screen slide-top" style={{marginTop:100}}>
     {/* ***responsive marker */}
     <div className="sign-bg h-full w-3/4 bg-primary hidden md:block"></div>
 

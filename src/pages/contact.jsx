@@ -3,7 +3,7 @@ import { Contactform } from '../components';
 import { ContactHeader, Footer } from '../container'
 const contact = () => {
   return (
-    <div className='contact__page'>
+    <div className='contact__page slide-top' style={{marginTop:100}}>
     <ContactHeader />
     <div className='contact__area'>
           <div className='contact__text'>

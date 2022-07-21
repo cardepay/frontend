@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import './contactForm.css'
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
 const Contactform = () => {
@@ -49,6 +49,7 @@ const Contactform = () => {
         <button type="submit"> Send a message </button>
       </div>
     </form></>
+    
   );
 };
 
