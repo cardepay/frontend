@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLock , FaUser, FaPhone, FaEnvelope, FaGlobe, FaBriefcase} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-
+import {InputIcon} from "../../components/input/index";
 const Signup = () => {
   return (
     <main className="flex min-h-screen h-screen w-screen slide-top" style={{marginTop:100}}>
