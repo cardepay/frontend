@@ -11,7 +11,7 @@ body{
     color: var(--color-main);
 } */
 .primary{
-    /* color: var(--color-main); */
+     color: var(--color-main); 
 }
 a{
     color: unset;

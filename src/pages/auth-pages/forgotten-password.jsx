@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
-//import Input from "../../components/Input";
+import Input from "../../components/Input";
 // import logo from '../assets/logo.png'
 import '../style/style.css'
 
