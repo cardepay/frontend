@@ -9,9 +9,9 @@ export class UserDetails extends Component {
     this.props.nextStep();
     }
     render() {
-    const {values, change} = this.props;
-    //this.props.values;
+    const {values , handleChange} = this.props;
     return (
+        <React.Fragment>
         <main className="flex min-h-screen h-screen w-screen " style={{marginTop:1}}>
         {/* ***responsive marker */}
         <div className="sign-bg h-full w-3/4 bg-primary hidden md:block"></div>
@@ -41,7 +41,7 @@ export class UserDetails extends Component {
                   type="text"
                   placeholder="Enter Username"
                   id="username"
-                  onchange={change('username')}
+                  onChange={handleChange('username')}
                   defaultValue={values.username}
                   />
         <InputIcon  
@@ -49,7 +49,7 @@ export class UserDetails extends Component {
                   type="contry"
                   placeholder="Enter Country"
                   id="country" 
-                  onchange={change('country')}
+                  onChange={handleChange('country')}
                   defaultValue={values.country}
                   />
         <InputIcon  
@@ -57,7 +57,7 @@ export class UserDetails extends Component {
                   type="text"
                   placeholder="Enter First Name"
                   id="firstName"
-                  onchange={change('firstName')}
+                  onChange={handleChange('firstName')}
                   defaultValue={values.firstName} />
 
                  
@@ -66,7 +66,7 @@ export class UserDetails extends Component {
                   type="text"
                   placeholder="Enter Last Name"
                   id="lastName"
-                  onchange={change('lastName')}
+                  onChange={handleChange('lastName')}
                   defaultValue={values.lastName}
                    />
                   
@@ -75,7 +75,7 @@ export class UserDetails extends Component {
                   type="phone"
                   placeholder="Enter Phone Number"
                   id="phone"
-                  onchange={change('phone')}
+                  onChange={handleChange('phone')}
                   defaultValue={values.phone}
                    />
                   
@@ -84,7 +84,7 @@ export class UserDetails extends Component {
                   type="email"
                   placeholder="Enter Email"
                   id="email" 
-                  onchange={change('email')}
+                  onChange={handleChange('email')}
                   defaultValue={values.email}
                   />
        
@@ -93,7 +93,7 @@ export class UserDetails extends Component {
                   type="password"
                   placeholder="Enter Password"
                   id="password" 
-                  onchange={change('password')}
+                  onChange={handleChange('password')}
                   defaultValue={values.password}
                   />
                 
@@ -103,7 +103,7 @@ export class UserDetails extends Component {
                   type="password"
                   placeholder="Confirm Password"
                   id="password2"
-                  onchange={change('password2')}
+                  onChange={handleChange('password2')}
                   defaultValue={values.password2}
                   />
                   
@@ -121,6 +121,7 @@ export class UserDetails extends Component {
           </div>
         </div>
       </main>
+      </React.Fragment>
     )
   }
 }
