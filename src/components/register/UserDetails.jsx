@@ -41,7 +41,7 @@ export class UserDetails extends Component {
                   type="text"
                   placeholder="Enter Username"
                   id="username"
-                  onChange={handleChange('username')}
+                  onChange={handleChange}
                   defaultValue={values.username}
                   />
         <InputIcon  
@@ -49,7 +49,7 @@ export class UserDetails extends Component {
                   type="contry"
                   placeholder="Enter Country"
                   id="country" 
-                  onChange={handleChange('country')}
+                  onChange={handleChange}
                   defaultValue={values.country}
                   />
         <InputIcon  
@@ -57,7 +57,7 @@ export class UserDetails extends Component {
                   type="text"
                   placeholder="Enter First Name"
                   id="firstName"
-                  onChange={handleChange('firstName')}
+                  onChange={handleChange}
                   defaultValue={values.firstName} />
 
                  
@@ -66,7 +66,7 @@ export class UserDetails extends Component {
                   type="text"
                   placeholder="Enter Last Name"
                   id="lastName"
-                  onChange={handleChange('lastName')}
+                  onChange={handleChange}
                   defaultValue={values.lastName}
                    />
                   
@@ -75,7 +75,7 @@ export class UserDetails extends Component {
                   type="phone"
                   placeholder="Enter Phone Number"
                   id="phone"
-                  onChange={handleChange('phone')}
+                  onChange={handleChange}
                   defaultValue={values.phone}
                    />
                   
@@ -84,7 +84,7 @@ export class UserDetails extends Component {
                   type="email"
                   placeholder="Enter Email"
                   id="email" 
-                  onChange={handleChange('email')}
+                  onChange={handleChange}
                   defaultValue={values.email}
                   />
        
@@ -93,7 +93,7 @@ export class UserDetails extends Component {
                   type="password"
                   placeholder="Enter Password"
                   id="password" 
-                  onChange={handleChange('password')}
+                  onChange={handleChange}
                   defaultValue={values.password}
                   />
                 
@@ -103,7 +103,7 @@ export class UserDetails extends Component {
                   type="password"
                   placeholder="Confirm Password"
                   id="password2"
-                  onChange={handleChange('password2')}
+                  onChange={handleChange}
                   defaultValue={values.password2}
                   />
                   
