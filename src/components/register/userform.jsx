@@ -38,7 +38,7 @@ export class Userform extends Component {
 
   // When user changes fields
   handleChange = input => e =>{
-    this.setState({[input]: e.target.values});
+    this.setState ({ [input]: e.target.value });
   }
 
   render() {
@@ -46,7 +46,7 @@ export class Userform extends Component {
     const { username, country, firstName, lastName, phone, email, password, 
         password2, bank, acctType, acctNum, acctName } = this.state;
     const values = {username, country, firstName, lastName, phone, email, password, 
-        password2, bank, acctType, acctNum, acctName}
+        password2, bank, acctType, acctNum, acctName};
     switch(step){
         case 1:
            return(

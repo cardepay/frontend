@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { FaLock , FaUser, FaPhone, FaEnvelope, FaGlobe, FaBriefcase} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import {InputIcon} from "../../components/input/index";
+import {InputIcon} from "../input/index";
 
 export class UserDetails extends Component {
     continue = e => {
