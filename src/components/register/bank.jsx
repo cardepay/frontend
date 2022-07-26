@@ -3,6 +3,7 @@ import { FaLock , FaUser, FaPhone, FaEnvelope, FaGlobe, FaBriefcase} from 'react
 import { Link } from 'react-router-dom'
 import {InputIcon} from "../input/index";
 
+
 export class Bank extends Component {
     continue =e => {
     e.preventDefault();
