@@ -37,9 +37,12 @@ export class Userform extends Component {
   }
 
   // When user changes fields
-  handleChange = input => e =>{
-    this.setState ({ [input]: e.target.value });
+  handleChange =  e =>{
+    const input = e.target.id
+    const value = e.target.value
+    this.setState ({ [input]: value });
   }
+
 
   render() {
     const { step } = this.state;

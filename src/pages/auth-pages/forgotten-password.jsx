@@ -42,7 +42,7 @@ const ForgottenPassword = () => {
           placeholder="Enter your Username"
           id="username"
         />
-        <button className="p-3 py-4 text-white bg-primary text-xs w-full transition-all hover:text-black">
+        <button className="p-3 py-4 text-white bg-primary text-xs w-full transition-all hover:bg-black">
           Recover My Account
         </button>
         <Link
