@@ -15,7 +15,7 @@ export class Bank extends Component {
         }
         render() {
           const {values, handleChange} = this.props;
-    this.props.values;
+   // this.props.values;
     return (
         <main className="flex min-h-screen h-screen w-screen " style={{marginTop:1}}>
         {/* ***responsive marker */}
@@ -43,6 +43,7 @@ export class Bank extends Component {
            
         <InputIcon  
         icon={<FaBriefcase />}
+                  required
                   type="text"
                   placeholder="What Bank do you use?"
                   id="bank"
@@ -82,11 +83,12 @@ export class Bank extends Component {
               >
                         Back
                       </button>
-              <button className="p-2 py-4 text-white bg-black text-xs  md:w-[20%]   transition-all hover:text-primary hover:bg-black"
+              <button type='submit' className="p-2 py-4 text-white bg-black text-xs  md:w-[20%]   transition-all hover:text-primary hover:bg-black"
               onClick={this.continue}
               >
                         Submit
                       </button>
+                     
                   
               </center>
             </form>
