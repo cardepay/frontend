@@ -12,8 +12,8 @@ export class Bank extends Component {
         e.preventDefault();
         this.props.prevStep();
         }
-    render() {
-    const {values, handleChange} = this.props;
+        render() {
+          const {values, handleChange} = this.props;
     this.props.values;
     return (
         <main className="flex min-h-screen h-screen w-screen " style={{marginTop:1}}>
@@ -45,7 +45,7 @@ export class Bank extends Component {
                   type="text"
                   placeholder="What Bank do you use?"
                   id="bank"
-                  onChange={handleChange('bank')}
+                  onChange={handleChange}
                   defaultValue={values.bank}
                   />
         <InputIcon  
@@ -53,7 +53,7 @@ export class Bank extends Component {
                   type="contry"
                   placeholder="What type of account?"
                   id="acctType" 
-                  onChange={handleChange('acctType')}
+                  onChange={handleChange}
                   defaultValue={values.acctType}
                   />
         <InputIcon  
@@ -61,7 +61,7 @@ export class Bank extends Component {
                   type="text"
                   placeholder="Uhm... Account Details"
                   id="acctNum"
-                  onChange={handleChange('acctNum')}
+                  onChange={handleChange}
                   defaultValue={values.acctNum} />
 
                  
@@ -70,7 +70,7 @@ export class Bank extends Component {
                   type="text"
                   placeholder="Finally, Your Account Name"
                   id="acctName"
-                  onChange={handleChange('acctName')}
+                  onChange={handleChange}
                   defaultValue={values.acctName}
                    />
     </div>

@@ -37,7 +37,7 @@ function Login() {
               placeholder="Enter Password"
               id="password" />
 
-            <button className="p-3 py-4 text-white bg-primary text-xs w-full transition-all hover:text-black">
+            <button className="p-3 py-4 text-white  bg-primary text-xs w-full transition-all hover:bg-black">
               Login
             </button>
             <Link
