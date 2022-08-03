@@ -26,7 +26,7 @@ const SignUp = ()=>{
         
         {/* forgotten password */}
 
-        <Link className='link p-3 block' to='/'>Forgotten Password ?</Link>
+        <Link className='link p-3 text-xs block' to='/forgotten-password'>Forgotten Password ?</Link>
 
         {/* button */}
         <button className='px-6 py-4 w-full hover:bg-gray-900 transition-colors text-xs rounded-full bg-primary text-white'>Create account</button>
