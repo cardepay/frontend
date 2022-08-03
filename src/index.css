@@ -13,6 +13,7 @@ body {
 
 /* custom reset */
 .auth-overlay{
+  background-color:#eee;
   background-image:  linear-gradient(#fff, rgba(255,255,255,.8)),
   url('./assets\curly-woman-great-mood-dancing-purple-wall.jpg');
   background-size:cover;

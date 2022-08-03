@@ -13,14 +13,14 @@ const App = () => {
   return (
 	<Routes>
 	<Route exact path='/' element={< Home />} />
-	<Route exact path='/signup' element={< SignUp />} />
-	<Route exact path='/login' element={< Login />} />
-	<Route exact path='/forgotten-password' element={< ForgottenPassword />} />
+	<Route  path='/signup' element={< SignUp />} />
+	<Route  path='/login' element={< Login />} />
+	<Route  path='/forgotten-password' element={< ForgottenPassword />} />
 
 
 
 
-	<Route exact path='*' element={< PageNotFound />} />
+	<Route path='*' element={< PageNotFound />} />
 </Routes>
   )
 }
