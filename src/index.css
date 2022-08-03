@@ -21,6 +21,17 @@ body {
   backround-repeat:no-repeat
 }
 
+#hero{
+  perspective:1000px
+}
+
+.card{
+  transform:rotate3d(1,1,4,10deg)
+}
+.card:nth-child(2){
+  transform:rotate3d(1,1,1,90deg)
+}
+
 
 /* TAILWIND CSS */
 @tailwind base;
@@ -33,6 +44,9 @@ body {
   }
   .primary{
     @apply text-primary underline decoration-wavy
+  }
+  .gradient{
+    @apply bg-gradient-to-r  from-primary to-blue-700;
   }
 }
 
