@@ -2,6 +2,9 @@
    --color-main:#EB247C 
 }
 
+/* add cutom font import */
+
+
 body {
   font-family:chillax, sans-serif;
   -webkit-font-smoothing: antialiased;
