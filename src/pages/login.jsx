@@ -9,7 +9,7 @@ const Login = ()=>{
     return(
         <main id='' className='p-12 auth-overlay min-h-screen flex flex-col justify-center'>
             {/* Header here */}
-        <Header />
+        {/* <Header /> */}
        <div className=''>
        <h4 className=''>WELCOME BACK</h4>
             <h1 className='text-5xl py-1'>Login Into Your Account</h1>
