@@ -11,7 +11,7 @@ const PageNotFound = () => {
           <div class="mb-10 lg:mb-12">
               <img src={logo} width={150} />
           </div>
-          <div class="mb-10 md:mb-20 text-black-600 font-light">
+          <div class="mb-10 md:mb-20 text-black-600">
             <h1 className='text-3xl lg:text-5xl text-500 '>404</h1>
             <h3 class="font-black uppercase text-2xl lg:text-3xl primary mb-10">You seem to be lost!</h3>
             <p className='text-xs'>The page you're looking for isn't available.
@@ -19,7 +19,9 @@ const PageNotFound = () => {
             </p>
           </div>
           <div class="mb-20 md:mb-0">
-            <button class="text-lg font-light outline-none focus:outline-none transform transition-all hover:scale-110 primary hover:text-pink-600"><Link to="/"><BsHouseFill /> Go Home </Link></button>
+            <Link to="/">
+            <button class="text-lg font-light text-sm flex itrems-center gap-2 outline-none focus:outline-none transform transition-all hover:scale-110  hover:text-pink-600"><BsHouseFill /> <span>Go Home</span> </button>
+            </Link>
           </div>
         </div>
         <div class="w-full hidden md:w-1/2 md:block text-center select-none event-none">
