@@ -12,7 +12,13 @@ body {
 }
 
 /* custom reset */
-
+.auth-overlay{
+  background-image:  linear-gradient(#fff, rgba(255,255,255,.8)),
+  url('./assets\curly-woman-great-mood-dancing-purple-wall.jpg');
+  background-size:cover;
+  background-position:center center;
+  backround-repeat:no-repeat
+}
 
 
 /* TAILWIND CSS */
@@ -20,7 +26,14 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components{
+  .link{
+    @apply text-primary hover:underline decoration-wavy
+  }
+  .primary{
+    @apply text-primary underline decoration-wavy
+  }
+}
 
 @layer utilities{
   .ring-red{
