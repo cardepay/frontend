@@ -11,8 +11,8 @@ const SignUp = ()=>{
             {/* Header here */}
         <Header />
        <div className=''>
-       <h4 className=''>START FOR FREE</h4>
-            <h1 className='text-5xl py-1'>Crerate new Account</h1>
+       <h4 className=''>JOIN FOR FREE</h4>
+            <h1 className='text-5xl py-1'>Create new Account</h1>
             <p>Alrerady A Member? <Link to='/login' className='link'>Login</Link></p>
         </div>
             <form className='my-4 w-[500px]'>
