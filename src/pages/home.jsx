@@ -1,8 +1,8 @@
-
+import Hero from '../layout/Hero'
 const home = () => {
   return (
   <main id="home">
-    home
+    <Hero />
   </main>
   )
 }
