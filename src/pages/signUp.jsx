@@ -1,3 +1,4 @@
+import {useState,useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import Input from '../components/Input'
 import {AiFillContacts} from 'react-icons/ai'
@@ -6,6 +7,15 @@ import {FaEye}from 'react-icons/fa'
 import logo from '../assets/logo.png'
 
 const SignUp = ()=>{
+    const [details, setDetails] = useState({
+        firstName:'',
+        lastName:'',
+        email:'',
+        password:'',
+    })
+
+
+  
     return(
         <main id='' className='p-12 auth-overlay min-h-screen flex flex-col justify-center'>
             <Link to='/'>
@@ -16,15 +26,18 @@ const SignUp = ()=>{
             <h1 className='text-5xl py-1'>Create new Account</h1>
             <p>Alrerady A Member? <Link to='/login' className='link'>Login</Link></p>
         </div>
-            <form className='my-4 max-w-[500px]'>
+            <form className='my-4 max-w-[500px]' onSubmit={(e)=>{
+        e.preventDefault()
+        console.log(details)
+        }}>
 
         <div className='flex gap-x-4 flex-col sm:flex-row'>
-            <Input type='text' label='First Name' id='first-name' placeholder='John' icon={<AiFillContacts/>}  />
-            <Input type='text' label='Last Name' id='last-name' placeholder='Doe' icon={<AiFillContacts/>}  />
+            <Input type='text' label='First Name' id='first-name' placeholder='John' icon={<AiFillContacts/>} onChange={(e)=> setDetails({...details,firstName:e.target.value}) } />
+            <Input type='text' label='Last Name' id='last-name' placeholder='Doe' icon={<AiFillContacts/>} onChange={(e)=> setDetails({...details,lastName:e.target.value}) } />
         </div>
-            <Input type='email' label='Email' id='last-name' placeholder='johnDoe@email.com' icon={<MdAlternateEmail/>}  />
+            <Input type='email' label='Email' id='last-name' placeholder='johnDoe@email.com' icon={<MdAlternateEmail/>} onChange={(e)=> setDetails({...details,email:e.target.value}) }  />
            <div className="mt-5">
-                <Input type='password' label='Password' id='last-name' placeholder='********' icon={<FaEye/>}  />
+                <Input type='password' label='Password' id='last-name' placeholder='********' icon={<FaEye/>} onChange={(e)=> setDetails({...details,password:e.target.value}) }  />
            </div>
         
         {/* forgotten password */}
