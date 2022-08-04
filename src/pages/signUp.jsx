@@ -9,20 +9,21 @@ const SignUp = ()=>{
     return(
         <main id='' className='p-12 auth-overlay min-h-screen flex flex-col justify-center'>
             {/* Header here */}
-        <Header />
        <div className=''>
        <h4 className=''>JOIN FOR FREE</h4>
             <h1 className='text-5xl py-1'>Create new Account</h1>
             <p>Alrerady A Member? <Link to='/login' className='link'>Login</Link></p>
         </div>
-            <form className='my-4 w-[500px]'>
+            <form className='my-4 max-w-[500px]'>
 
-        <div className='flex gap-x-4'>
+        <div className='flex gap-x-4 flex-col sm:flex-row'>
             <Input type='text' label='First Name' id='first-name' placeholder='John' icon={<AiFillContacts/>}  />
             <Input type='text' label='Last Name' id='last-name' placeholder='Doe' icon={<AiFillContacts/>}  />
         </div>
             <Input type='email' label='Email' id='last-name' placeholder='johnDoe@email.com' icon={<MdAlternateEmail/>}  />
-            <Input type='password' label='Password' id='last-name' placeholder='********' icon={<FaEye/>}  />
+           <div className="mt-5">
+                <Input type='password' label='Password' id='last-name' placeholder='********' icon={<FaEye/>}  />
+           </div>
         
         {/* forgotten password */}
 
