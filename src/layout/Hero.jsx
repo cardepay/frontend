@@ -5,7 +5,7 @@ import pp from '../assets/paypal.svg';
 import Card from '../components/Card'
 const Hero = () => {
   return (
-    <main className='py-6 flex relative flex-col md:flex-row items-center' id='hero'>
+    <main className='py-12 flex relative flex-col md:flex-row items-center' id='hero'>
       <div className='p-12'>
       <h1 className='py-4 text-5xl text-center md:text-left font-medium'>
             <span className='block'>Your future</span>
