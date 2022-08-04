@@ -15,7 +15,7 @@ const Login = ()=>{
             <h1 className='text-5xl py-1'>Login Into Your Account</h1>
             <p>Not Yet a Member? <Link to='/signup' className='link'>Sign Up</Link></p>
         </div>
-            <form className='my-4 w-[500px]'>
+            <form className='my-4 max-w-[500px]'>
 
 
             <Input type='email' label='Tag' id='last-name' placeholder='johnDoe@carde' icon={<MdAlternateEmail/>}  />
