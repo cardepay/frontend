@@ -3,13 +3,15 @@ import Input from '../components/Input'
 import {AiFillContacts} from 'react-icons/ai'
 import {MdAlternateEmail, MdOutlineMail}from 'react-icons/md'
 import {FaEye}from 'react-icons/fa'
-import Header from '../layout/Header';
-
+import logo from '../assets/logo.png'
 const Login = ()=>{
     return(
         <main id='' className='p-12 auth-overlay min-h-screen flex flex-col justify-center'>
             {/* Header here */}
-        {/* <Header /> */}
+        <Link to='/'>
+        <img src={logo} width={120} />
+        </Link>
+
        <div className=''>
        <h4 className=''>WELCOME BACK</h4>
             <h1 className='text-5xl py-1'>Login Into Your Account</h1>

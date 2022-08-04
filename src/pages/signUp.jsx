@@ -3,12 +3,14 @@ import Input from '../components/Input'
 import {AiFillContacts} from 'react-icons/ai'
 import {MdAlternateEmail, MdOutlineMail}from 'react-icons/md'
 import {FaEye}from 'react-icons/fa'
-import Header from '../layout/Header';
+import logo from '../assets/logo.png'
 
 const SignUp = ()=>{
     return(
         <main id='' className='p-12 auth-overlay min-h-screen flex flex-col justify-center'>
-            {/* Header here */}
+            <Link to='/'>
+        <img src={logo} width={120} />
+        </Link>
        <div className=''>
        <h4 className=''>JOIN FOR FREE</h4>
             <h1 className='text-5xl py-1'>Create new Account</h1>
