@@ -5,7 +5,7 @@ export class Confirm extends Component {
   continue = e => {
     e.preventDefault();
     console.log('submitted')
-    axios.post("https://carde.herokuapp.com/usersignup/", JSON.stringify(values))
+    axios.post("https://carde.herokuapp.com/usersignup/", this.props)
       .then = () =>{
         console.log(Response)
 
@@ -35,7 +35,7 @@ export class Confirm extends Component {
               <Link to="/signin" className="text-primary  hover:underline">
                 Login here
               </Link>{" "}
-              {JSON.stringify({values})}
+              {JSON.stringify(this.props)}
             </div>
             <div className="text-center text-black">
               <h1 className="font-bold text-3xl py-2">One Last Click</h1>
