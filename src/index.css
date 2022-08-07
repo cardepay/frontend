@@ -1,52 +1,54 @@
 :root{
-  --font-family:'poppins', sans-serif;
    --color-main:#EB247C 
 }
 
+/* add cutom font import */
+
+
 body {
-  margin: 0;
-  
+  font-family:chillax, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 /* custom reset */
-a{
-  color: unset;
-  text-decoration: none;
-}
-.section__padding{
-  padding: 4rem 6rem;
-}
-.section__margin{
-  margin: 4rem 6rem;
+.auth-overlay{
+  background-color:#eee;
+  background-image:  linear-gradient(#fff, rgba(255,255,255,.8)),
+  url('./assets\curly-woman-great-mood-dancing-purple-wall.jpg');
+  background-size:cover;
+  background-position:center center;
+  backround-repeat:no-repeat
 }
 
-/* media queries */
-
-@media screen and (max-width: 700px) {
-  .section__margin{
-      margin: 4rem;
-  }
-  .section__padding{
-      padding: 4rem;
-  }
+#hero{
+  perspective:1000px
 }
 
-@media screen and (max-width: 550px) {
-  .section__margin{
-      margin: 4rem 2rem;
-  }
-  .section__padding{
-      padding:  2rem;
-  }
+.card{
+  transform:rotate3d(1,1,4,10deg)
 }
+.card:nth-child(2){
+  transform:rotate3d(1,1,1,90deg)
+}
+
+
 /* TAILWIND CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components{
+  .link{
+    @apply text-primary hover:underline decoration-wavy
+  }
+  .primary{
+    @apply text-primary underline decoration-wavy
+  }
+  .gradient{
+    @apply bg-gradient-to-r  from-primary to-blue-700;
+  }
+}
 
 @layer utilities{
   .ring-red{
