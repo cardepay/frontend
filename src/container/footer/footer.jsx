@@ -1,12 +1,11 @@
 import React from 'react'
 import './footer.css'
-import logo from '../../assets/logo.png'
 
 const Footer = () => {
   return (
     <div className='footer'>
       <div className='nav__logo footer__logo'>
-          <img src={logo} alt='Logo' />
+          <img src='logo.png' alt='Logo' />
           <h6>We always make our customers happy by bridging the cross border payment gap.</h6>
       </div>
       <div className='useful__links'>

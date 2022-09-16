@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { BsHouseFill } from "react-icons/bs";
-import notfound from '../assets/404.png';
-import logo from '../assets/logo.png'
 import './style/style.css'
 const PageNotFound = () => {
   return (
@@ -10,7 +8,7 @@ const PageNotFound = () => {
       <div class="flex-1 max-h-full ax-w-full rounded-3xl bg-white shadow-xl p-10 lg:p-20 text-gray-800 relative md:flex items-center text-center md:text-left">
         <div class="w-full md:w-1/2">
           <div class="mb-10 lg:mb-12">
-              <img src={logo} />
+              <img src='logo.png' />
           </div>
           <div class="mb-10 md:mb-20 text-black-600 font-light">
             <h1 class="font-black uppercase text-3xl lg:text-5xl primary text-500 mb-10">You seem to be lost!</h1>
@@ -22,7 +20,7 @@ const PageNotFound = () => {
           </div>
         </div>
         <div class="w-full md:w-1/2 text-center">
-          <img src={notfound} />
+          <img src='404.png' />
         </div>
       </div>
       <div class="w-64 md:w-96 h-96 md:h-full bg-blue-200 bg-opacity-30 absolute -top-64 md:-top-96 right-20 md:right-32 rounded-full pointer-events-none -rotate-45 transform"></div>

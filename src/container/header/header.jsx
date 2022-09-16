@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css';
 import Nav from '../../components/navbar/Nav';
-import headerImage from '../../assets/headerImage.png'
 
 const Header = () => {
   return (
@@ -16,7 +15,7 @@ const Header = () => {
           <button>Get Started</button>
         </div>
         <div className='headerImage'>
-          <img src={headerImage} alt="'Header Image" />
+          <img src='headerImage.png' alt="'Header Image" />
         </div>
         </div>
       </div></>

@@ -12,6 +12,7 @@
     padding: 1em;
 }
 .feature__list .item{
+    box-sizing: border-box;
     display: flex;  
     flex-direction: column;
     justify-content: center;
@@ -26,17 +27,20 @@
     height: 150px;
     width: 140px;
     border-radius: 20px;
-    background-image: url('../../assets/geometric-cut-paper-black-background-topography-map-concept-vector.jpg');
-
+    background-image: url('geometric-cut-paper-black-background-topography-map-concept-vector.jpg');
 
 }
-.feature__list .item h5{
-    color: var(--color-main)
+.feature__list .item p{
+    color: var(--color-main);
+    font-weight: 800;
+    line-height: 1rem;
+    font-size: 0.5em;
 }
 .feature__list .item h6{
     line-height: 1rem;
     font-size: 0.5em;
 }
+
 @media screen and (max-width:1200px) {
    .feature{
     margin-left: 6em;

@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './nav.css'
-import logo from '../../assets/logo.png';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 
@@ -22,7 +21,7 @@ const Nav = () => {
   return (
     <div className='nav'>
       <div className='nav__logo'>
-      <Link to="/"><img src={logo} alt='Carde Logo' /></Link> 
+      <Link to="/"><img src='logo.png' alt='Carde Logo' /></Link> 
         </div>
         <div className='nav__links'>
             <Menu />

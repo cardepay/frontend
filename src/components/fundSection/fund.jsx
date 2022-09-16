@@ -1,6 +1,5 @@
 import React from 'react'
 import './fund.css'
-import phone from '../../assets/phonetest.png'
 const Fund = () => {
   return (
     <div className='fund'>
@@ -13,7 +12,7 @@ const Fund = () => {
         <li><span>Bank Transfer:</span>You can manually transfer from your account.</li>
        </div>
        <div className='phone'>
-        <img src={phone} alt='Phone' />
+        <img src='phonetest.png' alt='Phone' />
        </div>
        <div className='fund__text-right'>
           <h3 className="title"> Why Fund Your wallet</h3>

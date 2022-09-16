@@ -1,11 +1,10 @@
 import React from 'react';
 import './about.css';
-import AboutImage from '../../assets/pinklady.jpg'
 const About = () => {
   return (
     <div className='about' id='about'>
       <div className='images'>
-         <img src={AboutImage} alt='About Image' />
+         <img src='pinklady.jpg' alt='About Image' />
       </div>
       <div className='About__info'>
           <center><h3>About Us</h3></center>
